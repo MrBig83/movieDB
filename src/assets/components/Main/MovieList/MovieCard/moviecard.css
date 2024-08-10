@@ -1,13 +1,28 @@
-.moviecard {
+.movieCard {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border: 1px solid black;
     width: 250px;
-    height: 400px;
+    height: 420px;
 }
-.moviecard .markasseenbtn {
-    
-    
+.cardImage {
+    padding: 10px 10px;
+}
+
+.cardBottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.cardTitle {
+    /* width: 100%; */
+    text-align: center;
+}
+.checkMarkChecked {
+    color: green;
+}
+.checkMarkNot {
+    color: black;
 }

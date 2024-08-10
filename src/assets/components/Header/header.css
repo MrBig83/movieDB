@@ -44,3 +44,12 @@
 .header-right ul li {
     font-size: 1.5rem;
 }
+
+.searchCluster {
+    display: flex;
+    align-items: center;
+}
+.searchCluster input, button {
+    font-size: 1.5rem;
+    margin: 5px;
+}

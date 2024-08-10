@@ -1,7 +1,18 @@
 .main-content {
     height: 80vh;
     background-color: rgb(180, 180, 180);
-    padding: 20px;
-
     
+    padding: 20px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.movieCardList {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
 }
