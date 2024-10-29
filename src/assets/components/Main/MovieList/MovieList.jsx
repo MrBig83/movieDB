@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import MovieCard from "./MovieCard/MovieCard";
 import { ListContext } from "../../../../context/ListContext";
+import "../MovieList/movielist.css"
 
 const MovieList = () => {
     const { list } = useContext(ListContext);

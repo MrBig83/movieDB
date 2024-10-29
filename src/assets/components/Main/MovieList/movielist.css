@@ -1,3 +1,10 @@
 img {
     image: url("../MovieList/MovieCard/react.svg")
 }
+
+.movielist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}

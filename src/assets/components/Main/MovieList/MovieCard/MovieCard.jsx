@@ -10,8 +10,8 @@ const MovieCard = (movie) => {
 
     return (
         <div className="moviecard">
-            <p>{movie.movie.original_title}</p> 
             <img src={imgUrl} />
+            <p>{movie.movie.original_title}</p> 
             {MarkAsSeenBtn()}
         </div>
     )
