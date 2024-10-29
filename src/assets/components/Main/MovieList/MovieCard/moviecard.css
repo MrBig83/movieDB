@@ -1,3 +1,13 @@
+
+    img:before {
+        content: url("../MovieCard/react.svg");
+      }
+      
+      img:after {
+        /* content: "(url: " attr(src) ")"; */
+      }
+
+
 .moviecard {
     margin-top: 20px;
     display: flex;
@@ -6,6 +16,9 @@
     border: 1px solid black;
     width: 250px;
     height: 400px;
+    /* background-image: url("../MovieCard/react.svg");
+    background-repeat: no-repeat;
+    background-position: center; */
 }
 .moviecard .markasseenbtn {
     
